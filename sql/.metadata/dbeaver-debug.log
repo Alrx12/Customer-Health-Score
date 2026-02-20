@@ -1,27 +1,26 @@
-2026-02-19 21:04:19.480 - DBeaver 25.3.3.202601191420 is starting
-2026-02-19 21:04:19.483 - OS: Windows 11 10.0 (amd64)
-2026-02-19 21:04:19.484 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
-2026-02-19 21:04:19.484 - Install path: 'C:\Program Files\WindowsApps\DBeaverCorp.DBeaverCE_25.3.3.0_x64__1b7tdvn0p0f9y'
-2026-02-19 21:04:19.484 - Instance path: 'file:/C:/Users/Alexis Pineda/OneDrive/Documentos/customer-health-intelligence/sql/'
-2026-02-19 21:04:19.489 - Memory available 64Mb/1024Mb
-2026-02-19 21:04:19.497 - Create display
-> Start Interfaz de usuario de Eclipse IDE [org.eclipse.ui.ide 3.22.800.v20251112-0859]
-2026-02-19 21:04:19.833 - Initialize desktop platform...
-2026-02-19 21:04:20.091 - BounceCastle bundle found. Use JCE provider BC
+2026-02-19 21:59:12.944 - DBeaver 25.3.3.202601191420 is starting
+2026-02-19 21:59:12.946 - OS: Windows 11 10.0 (amd64)
+2026-02-19 21:59:12.946 - Java version: 21.0.8 by Eclipse Adoptium (64bit)
+2026-02-19 21:59:12.946 - Install path: 'C:\Program Files\WindowsApps\DBeaverCorp.DBeaverCE_25.3.3.0_x64__1b7tdvn0p0f9y'
+2026-02-19 21:59:12.946 - Instance path: 'file:/C:/Users/Alexis Pineda/OneDrive/Documentos/customer-health-intelligence/sql/'
+2026-02-19 21:59:12.951 - Memory available 64Mb/1024Mb
+2026-02-19 21:59:12.969 - Create display
+2026-02-19 21:59:13.247 - Initialize desktop platform...
+2026-02-19 21:59:13.492 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.11.400.v20251107-0507]
 > Start Core Resource Management [org.eclipse.core.resources 3.23.100.v20251106-1705]
 > Start Núcleo del equipo de soporte [org.eclipse.team.core 3.10.900.v20251104-0924]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.171.202601191420]
-2026-02-19 21:04:20.475 - Initialize base platform...
+2026-02-19 21:59:13.865 - Initialize base platform...
 > Start DBeaver Windows Store extension [org.jkiss.dbeaver.ui.app.winstore 1.0.96.202601191420]
-2026-02-19 21:04:20.486 - send collected statistics
-2026-02-19 21:04:20.497 - Platform initialized (664ms)
+2026-02-19 21:59:13.891 - send collected statistics
+2026-02-19 21:59:13.901 - Platform initialized (654ms)
 > Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.700.v20250622-1644]
 > Start Interfaz de usuario de manejo de conexión a Internet [org.eclipse.ui.net 1.5.500.v20250611-0855]
 > Start Internet Connection Management [org.eclipse.core.net 1.5.800.v20250613-1119]
-2026-02-19 21:04:20.720 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
-2026-02-19 21:04:20.781 - Can't start instance server: java.io.IOException: Unable to establish loopback connection
-2026-02-19 21:04:20.795 - Run workbench
+2026-02-19 21:59:14.182 - Proxy service 'org.eclipse.core.net.proxy.IProxyService' loaded
+2026-02-19 21:59:14.245 - Can't start instance server: java.io.IOException: Unable to establish loopback connection
+2026-02-19 21:59:14.258 - Run workbench
 > Start SWT del banco de trabajo de Eclipse e4 [org.eclipse.e4.ui.workbench.swt 0.17.1000.v20251023-0611]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.300.v20251112-1253]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.600.v20251023-1358]
@@ -40,85 +39,15 @@ Warning: NLS unused message: UriHandlerPreferencePage_Warning_OtherApp in: org.e
 > Start JFace [org.eclipse.jface.text 3.29.0.v20251112-0859]
 > Start Editor de texto predeterminado [org.eclipse.ui.editors 3.20.200.v20251125-0939]
 > Start Entorno de trabajo [org.eclipse.ui.workbench.texteditor 3.19.400.v20251105-0815]
-2026-02-19 21:04:24.318 - Configure workbench window
+2026-02-19 21:59:19.959 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.161.202601191420]
-2026-02-19 21:04:24.824 - Total database drivers: 127 (127)
+2026-02-19 21:59:20.533 - Total database drivers: 127 (127)
 > Start Núcleo del sistema de ayuda [org.eclipse.help 3.10.600.v20250613-0437]
-2026-02-19 21:04:24.996 - Create actions
-2026-02-19 21:04:26.268 - Initialize workbench window
-2026-02-19 21:04:26.311 - Finish initialization
+2026-02-19 21:59:20.834 - Create actions
+2026-02-19 21:59:22.545 - Initialize workbench window
+2026-02-19 21:59:22.598 - Finish initialization
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.171.202601191420]
 > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.171.202601191420]
-> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.208.202601191420]
-> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.168.202601191420]
-> Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202512020742]
-> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511201732]
-> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.12.202601191420]
-> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.12.202601191420]
-> Start DBeaver PostgreSQL UI [org.jkiss.dbeaver.ext.postgresql.ui 1.0.147.202601191420]
-> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.64.202601191420]
-> Start DBeaver PostgreSQL Model [org.jkiss.dbeaver.ext.postgresql 2.1.244.202601191420]
-2026-02-19 21:04:59.820 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
-2026-02-19 21:05:00.078 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
-2026-02-19 21:05:39.752 - Open [https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.pom]
-2026-02-19 21:05:40.770 - Open [https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom]
-2026-02-19 21:05:40.964 - Open [https://repo1.maven.org/maven2/net/postgis/postgis-jdbc/2.5.0/postgis-jdbc-2.5.0.pom]
-2026-02-19 21:05:41.069 - Open [https://repo1.maven.org/maven2/net/postgis/postgis-java-aggregator/2.5.0/postgis-java-aggregator-2.5.0.pom]
-2026-02-19 21:05:41.161 - Open [https://repo1.maven.org/maven2/org/testcontainers/testcontainers-bom/1.13.0/testcontainers-bom-1.13.0.pom]
-2026-02-19 21:05:41.345 - Open [https://repo1.maven.org/maven2/net/postgis/postgis-geometry/2.5.0/postgis-geometry-2.5.0.pom]
-2026-02-19 21:05:41.451 - Open [https://repo1.maven.org/maven2/com/github/waffle/waffle-jna/3.5.1/waffle-jna-3.5.1.pom]
-2026-02-19 21:05:41.563 - Open [https://repo1.maven.org/maven2/com/github/waffle/waffle/3.5.1/waffle-3.5.1.pom]
-2026-02-19 21:05:41.917 - Open [https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0/jna-5.16.0.pom]
-2026-02-19 21:05:42.004 - Open [https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0/jna-platform-5.16.0.pom]
-2026-02-19 21:05:42.178 - Open [https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/2.0.16/jcl-over-slf4j-2.0.16.pom]
-2026-02-19 21:05:42.315 - Open [https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.16/slf4j-parent-2.0.16.pom]
-2026-02-19 21:05:42.477 - Open [https://repo1.maven.org/maven2/org/slf4j/slf4j-bom/2.0.16/slf4j-bom-2.0.16.pom]
-2026-02-19 21:05:42.595 - Open [https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.pom]
-2026-02-19 21:05:42.775 - Open [https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.pom]
-2026-02-19 21:05:42.899 - Open [https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3.pom]
-2026-02-19 21:05:43.112 - Open [https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.pom]
-2026-02-19 21:05:43.318 - Open [https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-parent/1.15.11/byte-buddy-parent-1.15.11.pom]
-2026-02-19 21:05:43.525 - Open [https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.pom]
-2026-02-19 21:05:43.705 - Open [https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.pom]
-2026-02-19 21:05:43.805 - Open [https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.pom]
-2026-02-19 21:05:43.917 - Open [https://repo1.maven.org/maven2/com/google/errorprone/error_prone_parent/2.21.1/error_prone_parent-2.21.1.pom]
-2026-02-19 21:05:46.802 - Open [https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar]
-2026-02-19 21:05:47.507 - Open [https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar]
-2026-02-19 21:05:47.608 - Open [https://repo1.maven.org/maven2/net/postgis/postgis-jdbc/2.5.0/postgis-jdbc-2.5.0.jar]
-2026-02-19 21:05:47.693 - Open [https://repo1.maven.org/maven2/net/postgis/postgis-geometry/2.5.0/postgis-geometry-2.5.0.jar]
-2026-02-19 21:05:47.782 - Open [https://repo1.maven.org/maven2/com/github/waffle/waffle-jna/3.5.1/waffle-jna-3.5.1.jar]
-2026-02-19 21:05:47.872 - Open [https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar]
-2026-02-19 21:05:50.099 - Open [https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/5.16.0/jna-platform-5.16.0.jar]
-2026-02-19 21:05:50.976 - Open [https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/2.0.16/jcl-over-slf4j-2.0.16.jar]
-2026-02-19 21:05:51.070 - Open [https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar]
-2026-02-19 21:05:51.186 - Open [https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.8/caffeine-3.1.8.jar]
-2026-02-19 21:05:51.809 - Open [https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.48.3/checker-qual-3.48.3.jar]
-2026-02-19 21:05:52.029 - Open [https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar]
-2026-02-19 21:05:54.685 - Open [https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar]
-2026-02-19 21:05:54.831 - Open [https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.37.0/checker-qual-3.37.0.jar]
-2026-02-19 21:05:54.952 - Open [https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.21.1/error_prone_annotations-2.21.1.jar]
-2026-02-19 21:05:55.830 - Connect with 'Insightiks' (postgres-jdbc-19c78cba879-31335a1b970460a)
-> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.195.202601191420]
-2026-02-19 21:05:55.955 - Execution context opened (Insightiks; Main <Insightiks>; 0)
-2026-02-19 21:05:55.972 - Initiate connection to PostgreSQL database [Insightiks@100.88.92.80] for Main <Insightiks>
-2026-02-19 21:06:04.770 - Connect with 'Insightiks' (postgres-jdbc-19c78cc0d5e-73c99f7a50672d6)
-2026-02-19 21:06:04.772 - Execution context opened (Insightiks; Main <Insightiks>; 1)
-2026-02-19 21:06:04.772 - Initiate connection to PostgreSQL database [Insightiks@100.88.92.80] for Main <Insightiks>
-2026-02-19 21:08:13.902 - Connect with 'Insightiks' (postgres-jdbc-19c78ce05d8-6ec96a0812d3e0f6)
-2026-02-19 21:08:13.904 - Execution context opened (Insightiks; Main <Insightiks>; 2)
-2026-02-19 21:08:13.904 - Initiate connection to PostgreSQL database [Insightiks@100.88.92.80] for Main <Insightiks>
-2026-02-19 21:08:20.968 - Connect with 'ods' (postgres-jdbc-19c78ce2183-5334f5ada4fab8cf)
-2026-02-19 21:08:20.970 - Execution context opened (ods; Main <ods>; 3)
-2026-02-19 21:08:20.970 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for Main <ods>
-2026-02-19 21:08:22.954 - Connected (postgres-jdbc-19c78ce2183-5334f5ada4fab8cf, PostgreSQL JDBC Driver [42.7.2])
-2026-02-19 21:08:22.972 - Execution context closed (ods, 3)
-2026-02-19 21:08:22.973 - Disconnected (postgres-jdbc-19c78ce2183-5334f5ada4fab8cf)
-2026-02-19 21:08:30.803 - Connect with 'ods' (postgres-jdbc-19c78cb0fab-5089f54fb06e7f6d)
-2026-02-19 21:08:30.804 - Execution context opened (ods; Main <ods>; 4)
-2026-02-19 21:08:30.804 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for Main <ods>
-2026-02-19 21:08:31.324 - Execution context opened (ods; Metadata <ods>; 5)
-2026-02-19 21:08:31.324 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for Metadata <ods>
-2026-02-19 21:08:31.715 - Connected (postgres-jdbc-19c78cb0fab-5089f54fb06e7f6d, PostgreSQL JDBC Driver [42.7.2])
 Warning: NLS unused message: FindReplace_RegExCheckbox_label in: org.eclipse.ui.texteditor.EditorMessages
 Warning: NLS unused message: FindReplace_Status_wrapped_label in: org.eclipse.ui.texteditor.EditorMessages
 Warning: NLS unused message: FindReplace_WrapCheckBox_label in: org.eclipse.ui.texteditor.EditorMessages
@@ -148,16 +77,31 @@ Warning: NLS unused message: FindReplace_ForwardRadioButton_label in: org.eclips
 Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui.texteditor.EditorMessages
 > Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.147.202601191420]
 > Start Soporte de Core Compare [org.eclipse.compare.core 3.8.800.v20250718-1505]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.208.202601191420]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.168.202601191420]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.21.0.202512020742]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.24.0.202511201732]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.12.202601191420]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.12.202601191420]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.64.202601191420]
+> Start DBeaver PostgreSQL Model [org.jkiss.dbeaver.ext.postgresql 2.1.244.202601191420]
 > Start Consola [org.eclipse.ui.console 3.15.0.v20251113-1013]
 > Start Núcleo de depuración [org.eclipse.debug.core 3.23.200.v20251107-0507]
-2026-02-19 21:08:35.599 - Execution context opened (ods; SQLEditor <Script.sql>; 6)
-2026-02-19 21:08:35.601 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for SQLEditor <Script.sql>
+2026-02-19 21:59:29.837 - Connect with 'ods' (postgres-jdbc-19c78cb0fab-5089f54fb06e7f6d)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.195.202601191420]
+2026-02-19 21:59:30.027 - Execution context opened (ods; Main <ods>; 0)
+2026-02-19 21:59:30.042 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for Main <ods>
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.149.202601191420]
+> Start DBeaver PostgreSQL UI [org.jkiss.dbeaver.ext.postgresql.ui 1.0.147.202601191420]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.149.202601191420]
-> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.66.202601191420]
-2026-02-19 21:09:49.776 - Execution context opened (ods; SQLEditor <Script.sql>; 7)
-2026-02-19 21:09:49.776 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for SQLEditor <Script.sql>
-2026-02-19 21:09:59.309 - Execution context opened (ods; SQLEditor <Script.sql>; 8)
-2026-02-19 21:09:59.309 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for SQLEditor <Script.sql>
-2026-02-19 21:10:12.303 - Execution context opened (ods; SQLEditor <Script.sql>; 9)
-2026-02-19 21:10:12.303 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for SQLEditor <Script.sql>
+2026-02-19 22:00:28.670 - Connect with 'ods' (postgres-jdbc-19c78cb0fab-5089f54fb06e7f6d)
+2026-02-19 22:00:28.672 - Execution context opened (ods; Main <ods>; 1)
+2026-02-19 22:00:28.672 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for Main <ods>
+2026-02-19 22:01:15.098 - Connect with 'ods' (postgres-jdbc-19c78cb0fab-5089f54fb06e7f6d)
+2026-02-19 22:01:15.099 - Execution context opened (ods; Main <ods>; 2)
+2026-02-19 22:01:15.099 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for Main <ods>
+2026-02-19 22:01:16.199 - Execution context opened (ods; Metadata <ods>; 3)
+2026-02-19 22:01:16.199 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for Metadata <ods>
+2026-02-19 22:01:17.419 - Connected (postgres-jdbc-19c78cb0fab-5089f54fb06e7f6d, PostgreSQL JDBC Driver [42.7.2])
+2026-02-19 22:01:17.458 - Execution context opened (ods; SQLEditor <04_facts.sql>; 4)
+2026-02-19 22:01:17.460 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for SQLEditor <04_facts.sql>

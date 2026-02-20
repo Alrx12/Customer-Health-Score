@@ -295,3 +295,74 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2026-02-19 21:30:40.954
+!MESSAGE Some sessions are still open: [SESSION Insightiks [Main <Insightiks>], SESSION Insightiks [Main <Insightiks>], SESSION Insightiks [Main <Insightiks>]]
+!SESSION 2026-02-19 21:59:09.209 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_PA
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2026-02-19 21:59:14.249
+!MESSAGE Can't start instance server: java.io.IOException: Unable to establish loopback connection
+
+!ENTRY org.eclipse.ui 2 2 2026-02-19 21:59:28.008
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2026-02-19 21:59:50.163
+!MESSAGE Connection attempt timed out.
+!STACK 0
+org.postgresql.util.PSQLException: Connection attempt timed out.
+	at org.postgresql.Driver$ConnectThread.getResult(Driver.java:410)
+	at org.postgresql.Driver.connect(Driver.java:305)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:112)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:86)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:213)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:131)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.openConnection(PostgreDataSource.java:565)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:110)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:105)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase.checkInstanceConnection(PostgreDatabase.java:236)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase.<init>(PostgreDatabase.java:121)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.createDatabaseImpl(PostgreDataSource.java:276)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.initializeRemoteInstance(PostgreDataSource.java:170)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:107)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:98)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.<init>(PostgreDataSource.java:108)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.openDataSource(PostgreDataSourceProvider.java:123)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1355)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1213)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1047)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:79)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2026-02-19 22:00:48.676
+!MESSAGE Connection attempt timed out.
+!STACK 0
+org.postgresql.util.PSQLException: Connection attempt timed out.
+	at org.postgresql.Driver$ConnectThread.getResult(Driver.java:410)
+	at org.postgresql.Driver.connect(Driver.java:305)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:112)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:86)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:213)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:131)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.openConnection(PostgreDataSource.java:565)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:110)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:105)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase.checkInstanceConnection(PostgreDatabase.java:236)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase.<init>(PostgreDatabase.java:121)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.createDatabaseImpl(PostgreDataSource.java:276)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.initializeRemoteInstance(PostgreDataSource.java:170)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:107)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:98)
+	at org.jkiss.dbeaver.ext.postgresql.model.PostgreDataSource.<init>(PostgreDataSource.java:108)
+	at org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider.openDataSource(PostgreDataSourceProvider.java:123)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1355)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1213)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1047)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:79)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

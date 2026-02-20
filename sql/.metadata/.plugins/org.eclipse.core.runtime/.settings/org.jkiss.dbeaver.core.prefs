@@ -1,3 +1,4 @@
+driver.selector.orderBy=score
 eclipse.preferences.version=1
 org.jkiss.dbeaver.core.confirm.exit=always
 sample.database.canceled=true
