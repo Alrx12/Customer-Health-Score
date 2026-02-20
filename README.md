@@ -1,49 +1,75 @@
-Título: Customer Health & Churn Intelligence System
-Problema: muchas empresas pierden ingresos por churn silencioso.
-Objetivo: construir un sistema que:
+# Customer Health Score (CHS) – Churn Intelligence System
 
-cuantifique salud del cliente,
+## Resumen Ejecutivo (Executive Summary)
+Muchas empresas pierden ingresos por churn silencioso: clientes que dejan de comprar/usar un servicio sin avisar.  
+Este proyecto construye un sistema end-to-end para **medir salud del cliente**, **predecir riesgo de churn**, **priorizar acciones**, y **estimar impacto económico** de intervenir.
 
-detecte riesgo de churn,
+Aplicable a cualquier industria con datos transaccionales: retail, e-commerce, telecom, fintech, suscripciones, etc.
 
-priorice acciones,
+---
 
-estime impacto económico.
+## Objetivo de Negocio
+Construir un **Customer Health Score** y un modelo de churn usando datos transaccionales, para responder:
 
-Outputs:
+1) ¿Cómo evoluciona la retención y el revenue?  
+2) ¿Qué segmentos y clientes están en riesgo?  
+3) ¿Qué acciones priorizar y cuánto dinero está en riesgo?
 
-Data model en Star Schema (Postgres)
+---
 
-Pipeline reproducible (Python)
+## Definición de Churn (sin fuga de información)
+- **Ventana de observación:** 12 meses (para construir features)
+- **Ventana de evaluación:** 90 días posteriores al cierre de la observación
 
-Dashboard ejecutivo (Power BI)
+Un cliente se marca como churn si:
+> No registra actividad (transacción) durante los 90 días de evaluación después del cierre de la ventana de observación.
 
-Modelo predictivo de churn (baseline + mejorado)
+Esto garantiza consistencia temporal y evita data leakage.
 
-KPIs: churn rate, retention, ARPU/Revenue proxy, cohort retention, health score, expected revenue at risk.
+---
 
-Audiencia: liderazgo comercial / growth / customer success.
+## Arquitectura (Stack)
+- **PostgreSQL:** modelo dimensional (Star Schema) + capa analítica
+- **Python:** EDA, feature engineering, entrenamiento y scoring
+- **Power BI:** dashboard ejecutivo con storytelling y simulación de impacto
+- **Git/GitHub:** control de versiones y portafolio reproducible
 
+---
 
-customer-health-intelligence/
-  data/
-    raw/            # aquí pones el csv original (o link, mejor)
-    processed/
-  sql/
-    01_schema.sql
-    02_staging.sql
-    03_dimensions.sql
-    04_facts.sql
-  notebooks/
-    01_eda.ipynb
-  src/
-    config.py
-    extract_load.py
-  dashboard/
-    screenshots/
-  docs/
-    star_schema.png
-    storytelling_outline.md
-  README.md
+## KPIs clave
+- Churn rate / retention rate
+- Cohort retention
+- Revenue at risk (proxy)
+- Customer Health Score
+- Drivers de churn (features explicativas)
+- Impacto estimado de intervención (escenarios)
 
+---
 
+## Dataset
+**Online Retail II / E-commerce transactions**  
+> Nota: el dataset no se incluye en el repo por tamaño/licencia. Se documenta el origen y se cargará en `data/raw/`.
+
+---
+
+## Estructura del repositorio
+```text
+Customer-Health-Score/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── sql/
+│   ├── 01_schema.sql
+│   ├── 02_staging.sql
+│   ├── 03_dimensions.sql
+│   └── 04_facts.sql
+├── notebooks/
+│   └── 01_eda.ipynb
+├── src/
+│   ├── config.py
+│   └── extract_load.py
+├── dashboard/
+│   └── screenshots/
+└── docs/
+    ├── star_schema.png
+    └── storytelling_outline.md
