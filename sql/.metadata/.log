@@ -366,3 +366,6 @@ org.postgresql.util.PSQLException: Connection attempt timed out.
 	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:79)
 	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:110)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.jkiss.dbeaver.model 2 0 2026-02-19 22:14:30.927
+!MESSAGE Some sessions are still open: [SESSION ods [Main <ods>], SESSION ods [Main <ods>]]

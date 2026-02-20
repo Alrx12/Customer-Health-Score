@@ -1,7 +1,0 @@
-5996:APP_OPEN:startTime=1771556351981
-16308:GENERAL_SHOW_PERSPECTIVE:perspective=org.jkiss.dbeaver.core.perspective
-17249:SQL_EDITOR_OPEN:driver=postgresql:postgres-jdbc
-17765:CONNECTION_OPEN:origin=local&driver=postgresql:postgres-jdbc
-73022:GENERAL_VIEW_OPEN:view=org.jkiss.dbeaver.core.databaseNavigator
-76671:CONNECTION_OPEN:origin=local&driver=postgresql:postgres-jdbc
-123104:CONNECTION_OPEN:origin=local&driver=postgresql:postgres-jdbc

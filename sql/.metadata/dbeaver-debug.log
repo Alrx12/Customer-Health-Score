@@ -105,3 +105,7 @@ Warning: NLS unused message: FindReplace_FindNextButton_label in: org.eclipse.ui
 2026-02-19 22:01:17.419 - Connected (postgres-jdbc-19c78cb0fab-5089f54fb06e7f6d, PostgreSQL JDBC Driver [42.7.2])
 2026-02-19 22:01:17.458 - Execution context opened (ods; SQLEditor <04_facts.sql>; 4)
 2026-02-19 22:01:17.460 - Initiate connection to PostgreSQL database [ods@100.88.92.80] for SQLEditor <04_facts.sql>
+2026-02-19 22:14:28.487 - Execution context closed (ods, 4)
+2026-02-19 22:14:29.137 - Dispose navigator model
+2026-02-19 22:14:29.196 - DBeaver is stopping
+2026-02-19 22:14:29.204 - DBeaver shutdown completed
